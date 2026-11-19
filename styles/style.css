@@ -85,6 +85,7 @@ ol {
 }
 
 .result__video-container {
+  height: 386px;
   width: 711px;
   overflow-y: auto;
   display: flex;
@@ -268,7 +269,7 @@ label:hover span {
 }
 
 .button {
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0%;
@@ -305,6 +306,10 @@ label:hover span {
 }
 
 .content__card-link:active {
+  background-color: #545050;
+}
+
+.content__card-link_current {
   background-color: #545050;
 }
 
